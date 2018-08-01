@@ -26,11 +26,14 @@ namespace Aula3107_Console
 
 
                 Console.WriteLine("Precione o código da operação que deseja realizar:n");
-                Console.WriteLine("+ para Somar");
-                Console.WriteLine("- para Diminuir");
-                Console.WriteLine("* para Multiplicar");
-                Console.WriteLine("/ para Dividir");
-                Console.Write("Digite a operação Desejada: ");
+                Console.WriteLine(" __________________________");
+                Console.WriteLine("|                          |");
+                Console.WriteLine("| + para Somar             |");
+                Console.WriteLine("| - para Diminuir          |");
+                Console.WriteLine("| * para Multiplicar       |");
+                Console.WriteLine("| / para Dividir           |");
+                Console.WriteLine("|__________________________|");
+                Console.Write("Digite a operação Desejada:  ");
 
                 resp = Console.ReadLine();
                 string op = Convert.ToString(resp);
