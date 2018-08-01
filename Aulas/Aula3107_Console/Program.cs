@@ -10,6 +10,7 @@ namespace Aula3107_Console
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Fucking World!!");
             Console.ReadKey();
         }
