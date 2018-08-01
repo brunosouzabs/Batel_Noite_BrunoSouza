@@ -25,7 +25,7 @@ namespace Aula3107_Console
                 int R = 0; //resposta.
 
 
-                Console.WriteLine("Precione o código da operação que deseja realizar:n");
+                Console.WriteLine("### Precione o código da operação que deseja realizar ###");
                 Console.WriteLine(" __________________________");
                 Console.WriteLine("|                          |");
                 Console.WriteLine("| + para Somar             |");
