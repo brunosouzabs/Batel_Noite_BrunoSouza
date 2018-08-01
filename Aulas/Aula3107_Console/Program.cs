@@ -8,30 +8,102 @@ namespace Aula3107_Console
 {
     class Program
     {
-        public static int nun1 { get; set; }
-        public static int nun2 { get; set; }
-        public static int op { get; set; }
-        private int id;
+       
         static void Main(string[] args)
         {
-            
-        Console.WriteLine("Digite o Primeiro Número:");
-            nun1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o Segundo Número:");
-            nun2 = int.Parse(Console.ReadLine());
+            string resp = "";
 
-            
+            do
 
-            Console.WriteLine("Em Soma: " + (nun1+nun2));
-            Console.WriteLine("Em Subtração: " + (nun1 - nun2));
-            Console.WriteLine("Em Divisão: " + (nun1 / nun2));
-            Console.WriteLine("Em Multiplicação: " +(nun1 * nun2));
+            {
+
+                int num1 = 0; //Primeiro Numero.
+
+                int num2 = 0; //Segundo número.
+
+                int R = 0; //resposta.
 
 
-            Console.ReadKey();           
+                Console.WriteLine("Precione o código da operação que deseja realizar:n");
+                Console.WriteLine("+ para Somar");
+                Console.WriteLine("- para Diminuir");
+                Console.WriteLine("* para Multiplicar");
+                Console.WriteLine("/ para Dividir");
+                Console.Write("Digite a operação Desejada: ");
 
-            
+                resp = Console.ReadLine();
+                string op = Convert.ToString(resp);
+
+
+                Console.WriteLine("Insira os valores a calcular: ");
+
+                Console.Write("Número 1: ");
+
+                num1 = int.Parse(Console.ReadLine());
+
+                Console.Write("Número 2: ");
+
+                num2 = int.Parse(Console.ReadLine());
+
+                Console.WriteLine();
+
+
+                switch (op)
+
+                {
+
+                    case "+":
+
+                        Console.WriteLine("O resultado da soma é:");
+
+                        R = num1 + num2;
+
+                        Console.WriteLine("{0} + {1} = {2}", num1, num2, R);
+
+                        break;
+
+                    case "-":
+
+                        Console.WriteLine("O resultado da subtração é:");
+
+                        R = num1 - num2;
+
+                        Console.WriteLine("{0} - {1} = {2}", num1, num2, R);
+
+                        break;
+
+                    case "*":
+
+                        Console.WriteLine("O resultado da multiplicação é:");
+
+                        R = num1 * num2;
+
+                        Console.WriteLine("{0} * {1} = {2}", num1, num2, R);
+
+                        break;
+
+                    case "/":
+
+                        Console.WriteLine("O resultado da divisão é:");
+
+                        R = num1 / num2;
+
+                        Console.WriteLine("{0} / {1} = {2}", num1, num2, R);
+
+                        break;
+
+                }
+
+                Console.Write("Deseja realizar outro calculo? s/n: ");
+
+                resp = Console.ReadLine();
+
+            }
+
+            while (resp == "s" || resp == "s");
+
+
         }
         
     }
