@@ -95,6 +95,14 @@ namespace Aula3107_Console
                         Console.WriteLine("{0} / {1} = {2}", num1, num2, R);
 
                         break;
+                    default:
+                        {
+                            Console.WriteLine("Digite um operador válido(+|-|*|/)");
+                            Console.ReadKey();
+                            Console.Clear();
+                            Main(null);
+                            break;
+                        }
 
                 }
 
