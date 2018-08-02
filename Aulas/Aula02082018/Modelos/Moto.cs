@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Aula02082018.Modelos
 {
-    class Carro : Veiculo
+    class Moto : Veiculo
     {
-
+        
 
 
 
