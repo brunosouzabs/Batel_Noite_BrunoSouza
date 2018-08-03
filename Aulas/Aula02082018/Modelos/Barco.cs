@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Aula02082018.Modelos
 {
-    class Moto : Veiculo, IMotorizado
+    class Barco : Veiculo, IMotorizado
     {
         public int Velocidade { get; set; }
 
         public void Acelerar()
         {
-            Console.WriteLine("Moto: Pisando no pedal...");
-            Velocidade += 4;
+            Console.WriteLine("Barco: Grau no pedal...");
+            Velocidade += 2;
         }
 
         public void Frenar()
         {
-            Console.WriteLine("Moto: Pisando no pedal (Freio)...");
-            Velocidade -= 2;
+            Console.WriteLine("Barco: Grau no pedal (Freio)...");
+            Velocidade -= 1;
         }
     }
 }
