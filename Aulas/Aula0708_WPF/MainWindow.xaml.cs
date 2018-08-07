@@ -24,5 +24,15 @@ namespace Aula0708_WPF
         {
             InitializeComponent();
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void btnOla_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Bora BK?");
+        }
     }
 }

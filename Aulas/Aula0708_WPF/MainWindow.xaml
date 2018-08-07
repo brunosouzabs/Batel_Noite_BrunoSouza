@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnOla" Content="Olá Mundo! Em WPF           
+                " HorizontalAlignment="Left" Margin="246,230,0,0" VerticalAlignment="Top" Width="150
+" Background="#FFC7A2A2" Click="btnOla_Click"/>
     </Grid>
 </Window>
