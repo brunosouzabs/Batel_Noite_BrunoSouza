@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:CalculadoraWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,0,2,0">
+    <Grid x:Name="FundoCalc" Margin="0,0,2,0">
         <Grid.Background>
-            <ImageBrush ImageSource="https://i.pinimg.com/originals/a3/69/b9/a369b91e1b2fbd4ffdeb4ac3c87f96c6.jpg" Opacity="0.6"/>
+            <ImageBrush ImageSource="https://sm.ign.com/ign_br/screenshot/default/rick-and-morty-season-4-dan-harmon_7tsm.jpg" Opacity="1.0"/>
         </Grid.Background>
         <Button x:Name="clc1" Content="1" HorizontalAlignment="Left" Margin="39,341,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
         <Button x:Name="clcIgual" Content="=" HorizontalAlignment="Left" Margin="115,341,0,0" VerticalAlignment="Top" Width="126" Height="50"/>
