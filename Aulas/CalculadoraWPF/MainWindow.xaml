@@ -1,0 +1,33 @@
+﻿<Window x:Class="CalculadoraWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculadoraWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,2,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="https://i.pinimg.com/originals/a3/69/b9/a369b91e1b2fbd4ffdeb4ac3c87f96c6.jpg" Opacity="0.6"/>
+        </Grid.Background>
+        <Button x:Name="clc1" Content="1" HorizontalAlignment="Left" Margin="39,341,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcIgual" Content="=" HorizontalAlignment="Left" Margin="115,341,0,0" VerticalAlignment="Top" Width="126" Height="50"/>
+        <Button x:Name="clc4" Content="4" HorizontalAlignment="Left" Margin="191,263,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clc3" Content="3" HorizontalAlignment="Left" Margin="115,263,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clc2" Content="2" HorizontalAlignment="Left" Margin="39,263,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clic5" Content="5" HorizontalAlignment="Left" Margin="39,185,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clc6" Content="6" HorizontalAlignment="Left" Margin="115,185,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clc7" Content="7" HorizontalAlignment="Left" Margin="191,185,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clic8" Content="8" HorizontalAlignment="Left" Margin="39,103,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clc9" Content="9" HorizontalAlignment="Left" Margin="115,103,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcC" Content="C" HorizontalAlignment="Left" Margin="191,103,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <TextBlock x:Name="telaResultado" HorizontalAlignment="Left" Margin="39,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="68" Width="362" OpacityMask="#FFEEE5E5" Background="#FFFFF595"/>
+        <Button x:Name="clcDiv" Content="/" HorizontalAlignment="Left" Margin="269,103,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcMuilt" Content="*" HorizontalAlignment="Left" Margin="269,185,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcMais" Content="+" HorizontalAlignment="Left" Margin="269,263,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcMenos" Content="-" HorizontalAlignment="Left" Margin="269,341,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcPot" Content="^" HorizontalAlignment="Left" Margin="351,103,0,0" VerticalAlignment="Top" Width="50" Height="132" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="clcDiv_Copy1" Content="/" HorizontalAlignment="Left" Margin="351,263,0,0" VerticalAlignment="Top" Width="50" Height="132" FontWeight="Bold" FontSize="24"/>
+
+    </Grid>
+</Window>
