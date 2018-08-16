@@ -22,7 +22,7 @@ namespace Aula3107_Console
 
                 int num2 = 0; //Segundo número.
 
-                int R = 0; //resposta.
+                int R = 0; //resposta. 
 
 
                 Console.WriteLine("### Precione o código da operação que deseja realizar ###5");
