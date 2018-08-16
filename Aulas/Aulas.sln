@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3107_Console", "Aula3107_Console\Aula3107_Console.csproj", "{E0DB1355-80C5-4473-884D-FB9293DDE537}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula0708_WPF", "Aula0708_WPF\Aula0708_WPF.csproj", "{D7AD4002-E79E-4810-9C37-49AFE717CBE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWPF", "CalculadoraWPF\CalculadoraWPF.csproj", "{E3AB82AE-EEA5-49C3-8551-E22AB30D9710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1608", "Aula1608\Aula1608.csproj", "{D0261FB2-28B7-48F9-B79A-5A3CB974BD89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E3AB82AE-EEA5-49C3-8551-E22AB30D9710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3AB82AE-EEA5-49C3-8551-E22AB30D9710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3AB82AE-EEA5-49C3-8551-E22AB30D9710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0261FB2-28B7-48F9-B79A-5A3CB974BD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0261FB2-28B7-48F9-B79A-5A3CB974BD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0261FB2-28B7-48F9-B79A-5A3CB974BD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0261FB2-28B7-48F9-B79A-5A3CB974BD89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
