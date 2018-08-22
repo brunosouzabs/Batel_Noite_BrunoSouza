@@ -8,5 +8,6 @@ namespace Aula2108_CodeFirst
 {
     public class Class1
     {
+
     }
 }
