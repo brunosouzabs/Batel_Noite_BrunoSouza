@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aula2108_CodeFirst.Modelos
 {
-    class Categosrias
+    class Categoria
     {
         [Key]
         public int CategoriaID { get; set; }
